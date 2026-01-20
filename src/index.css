@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply antialiased bg-[#f8fafc] text-slate-900 font-sans;
+    }
+}
+
+.input-glow {
+    @apply focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all duration-200 outline-none;
+}
+
+.form-card {
+    @apply bg-white border border-slate-200 rounded-2xl shadow-sm p-8;
+}
+
+.label-text {
+    @apply text-xs font-bold uppercase tracking-widest text-slate-500 mb-2 block;
+}

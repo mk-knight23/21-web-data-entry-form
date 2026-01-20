@@ -1,26 +1,30 @@
 {
   "name": "26-data-entry-form",
+  "private": true,
   "version": "1.0.0",
-  "description": "![Screenshot](data-ss.png)",
-  "main": "script.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mk-knight23/26-data-entry-form.git"
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.5.4",
+    "lucide-react": "^0.441.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/mk-knight23/26-data-entry-form/issues"
-  },
-  "homepage": "https://github.com/mk-knight23/26-data-entry-form#readme",
   "devDependencies": {
-    "vite": "^7.3.1"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
   }
 }
