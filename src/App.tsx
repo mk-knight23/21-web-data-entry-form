@@ -144,7 +144,7 @@ export default function App() {
                             <FileText className="w-4 h-4" />
                             <span className="text-[10px] font-bold uppercase tracking-widest tracking-tighter">Documentation available</span>
                         </div>
-                        <p className="text-[10px] font-black uppercase tracking-[0.4em]">© 2024 MK_FORMFLOW • 26/30 DISPATCHED</p>
+                        <p className="text-[10px] font-black uppercase tracking-[0.4em]">© 2026 FORMFLOW // RECORD • 26/30 DISPATCHED</p>
                     </footer>
                 </div>
             </main>

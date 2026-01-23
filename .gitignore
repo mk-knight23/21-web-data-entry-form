@@ -10,3 +10,5 @@ package-lock.json
 .DS_Store
 Thumbs.db
 .Trash
+.vercel
+.env*.local
