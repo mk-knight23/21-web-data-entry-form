@@ -1,5 +1,5 @@
 {
-  "name": "26-data-entry-form",
+  "name": "21-web-enterprise-input",
   "private": false,
   "version": "2.1.0",
   "description": "Enterprise precision data entry portal modernized with React 19, Vite 6, and Tailwind CSS v4.",
@@ -23,9 +23,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mk-knight23/26-data-entry-form.git"
+    "url": "git+https://github.com/mk-knight23/21-web-enterprise-input.git"
   },
-  "homepage": "https://mk-knight23.github.io/26-data-entry-form/",
+  "homepage": "https://mk-knight23.github.io/21-web-enterprise-input/",
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^12.29.2",
