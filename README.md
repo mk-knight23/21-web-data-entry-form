@@ -4,6 +4,16 @@
 
 ## 📦 Deployment
 
+### Live Links
+
+| Platform | Status | URL |
+|----------|--------|-----|
+| Vercel | Ready to Deploy | [21-web-enterprise-input.vercel.app](https://21-web-enterprise-input.vercel.app) |
+| Render | Ready to Deploy | [21-web-enterprise-input.onrender.com](https://21-web-enterprise-input.onrender.com) |
+| Firebase | Ready to Deploy | [web-enterprise-input.web.app](https://web-enterprise-input.web.app) |
+| AWS Amplify | Ready to Deploy | [main.21-web-enterprise-input.amplifyapp.com](https://main.21-web-enterprise-input.amplifyapp.com) |
+| GitHub Pages | Ready to Deploy | [mk-knight23.github.io/21-web-enterprise-input](https://mk-knight23.github.io/21-web-enterprise-input) |
+
 ### Render (One-Click Deploy)
 This repository includes a `render.yaml` blueprint for automated deployment:
 1. Visit [dashboard.render.com](https://dashboard.render.com)
@@ -57,6 +67,7 @@ npm run build
 - [Deployment Guide](docs/DEPLOY.md)
 
 ---
-**Built by [Kazi Musharraf](https://github.com/mkazi-)*
+**Built by [Kazi Musharraf](https://github.com/mk-knight23)**
+
 Status: 🟢 Active
-Last Updated: 2026-02-02
+Last Updated: 2026-02-03
